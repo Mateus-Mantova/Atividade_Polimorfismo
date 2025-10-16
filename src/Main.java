@@ -10,12 +10,12 @@ public class Main {
         Veiculo v3 = new Caminhao("Volvo", "FH", 2019, 25.5);
 
 
-        System.out.println("=== Testando método polimórfico mover() ===");
+        System.out.println(" Testando método polimórfico mover() ");
         fazerMover(v1);
         fazerMover(v2);
         fazerMover(v3);
 
-        System.out.println("\n=== Chamando métodos exclusivos dos filhos ===");
+        System.out.println("\nChamando métodos exclusivos dos filhos ");
 
         if (v1 instanceof Carro) {
             ((Carro) v1).ligarArCondicionado();

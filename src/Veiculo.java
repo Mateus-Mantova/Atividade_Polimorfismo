@@ -3,21 +3,18 @@ public class Veiculo {
     private String modelo;
     private int ano;
 
-    // Construtor padrão
     public Veiculo() {
         this.marca = "Desconhecida";
         this.modelo = "Genérico";
         this.ano = 0;
     }
 
-    // Construtor com parâmetros
     public Veiculo(String marca, String modelo, int ano) {
         this.marca = marca;
         this.modelo = modelo;
         this.ano = ano;
     }
 
-    // Getters e Setters
     public String getMarca() {
         return marca;
     }
