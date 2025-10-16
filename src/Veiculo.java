@@ -5,7 +5,7 @@ public class Veiculo {
 
     public Veiculo() {
         this.marca = "Desconhecida";
-        this.modelo = "Genérico";
+        this.modelo = "Genérico.";
         this.ano = 0;
     }
 
