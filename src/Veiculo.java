@@ -40,7 +40,7 @@ public class Veiculo {
     }
 
     public void exibirInfo() {
-        System.out.println("Marca: " + marca + ", Modelo: " + modelo + ", Ano: " + ano);
+        System.out.println("Marca:ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg " + marca + ", Modelo: " + modelo + ", Ano: " + ano);
     }
 
     public void mover() {
